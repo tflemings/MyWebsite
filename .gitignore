@@ -19,4 +19,5 @@ build/web/images/
 ########################
 build/web/META-INF/
 build/web/WEB-INF/classes/
+nbproject/private/
 
