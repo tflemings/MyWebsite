@@ -9,3 +9,11 @@
 ## Files
 ########################
 build.xml
+build/web/WEB-INF/web.xml
+
+########################
+## Directories
+########################
+build/web/META-INF/
+build/web/WEB-INF/classes/
+
