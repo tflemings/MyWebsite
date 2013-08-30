@@ -17,13 +17,14 @@
     </head>
     <body> 
         <img class="logo" src="images/tf_logo.png"/>
-        <s:form class="header" action="#" name="header">
-            <s:button name="home" class="button" value="Home"/>
-            <s:button name="blog" class="button" value="Blog"/>
-            <s:button name="tutorials" class="button" value="Tutorials"/>
-            <s:button name="projects" class="button" value="Projects"/>
-            <s:button name="wireframes" class="button" value="Wire Frames"/>            
-            <s:button name="about" class="button" value="About"/>
+        <s:form class="header" beanclass="com.core.action.MenuActionBean" name="header">
+            <s:submit name="index" class="button" value="Home"/>
+            <s:submit name="blog" class="button" value="Blog"/>
+            <s:submit name="tutorials" class="button" value="Tutorials"/>
+            <s:submit name="projects" class="button" value="Projects"/>
+            <s:submit name="wireframes" class="button" value="Wire Frames"/>            
+            <s:submit name="about" class="button" value="About"/>
+            <s:submit name="login" class="button" value="Login"/>
         </s:form>
         <s:layout-component name="body"/>
     </body>

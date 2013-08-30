@@ -16,7 +16,7 @@ public class HomeActionBean extends TonyFlemingsAbstractActionBean {
     private static final String INDEX = "/index.jsp";
     
     @DefaultHandler
-    public Resolution form() {
+    public Resolution index() {
         return new ForwardResolution(INDEX);
     }
 }
