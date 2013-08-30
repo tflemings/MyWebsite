@@ -9,7 +9,7 @@
     <s:layout-component name="body">
         <s:messages/>
     <div class="body">
-        <h1>Welcome to my website</h1>
+        <h1>In progress</h1>
     </div>
     </s:layout-component>
 </s:layout-render>
