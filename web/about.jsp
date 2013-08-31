@@ -10,6 +10,7 @@
         <s:messages/>
     <div class="body">
         <h1>About</h1>
+        <img src="images/tony.jpg"/>
     </div>
     </s:layout-component>
 </s:layout-render>
