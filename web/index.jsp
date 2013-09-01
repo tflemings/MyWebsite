@@ -8,7 +8,6 @@
 <s:layout-render name="/layout-main.jsp" title="Home">
     <s:layout-component name="body">
         <s:messages/>
-    <div class="body">
         <h1>Welcome to TonyFlemings.com</h1>
         <div class="container">
             <h3>Lorem Ipsum</h3>
@@ -78,6 +77,5 @@
                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-    </div>
     </s:layout-component>
 </s:layout-render>

@@ -25,13 +25,19 @@
             <s:submit name="blog" class="button" value="blog"/>
             <s:submit name="tutorials" class="button" value="tutorials"/>
             <s:submit name="projects" class="button" value="projects"/>
-            <s:submit name="wireframes" class="button" value="wire frames"/>            
             <s:submit name="about" class="button" value="about"/>
-            <s:submit name="contact" class="button" value="contact"/>
             <s:submit name="login" class="button" value="login"/>
             </div>
+            
         </s:form>
-        <s:layout-component name="body"/>
+        <div class="body">
+            <s:layout-component name="body"/>
+        </div>
     </body>
+    <footer>
+        <p><a href="http://www.arvixe.com/linux_web_hosting" target="_blank">Linux 
+            Web Hosting By Arvixe </a>By <a href="http://www.arvixe.com" 
+                 target="_blank">Arvixe</a>
+    </footer>
 </html>  
 </s:layout-definition>

@@ -16,7 +16,7 @@ root {
 html body{
     padding: 0;
     margin: 0;
-    background-color: #1b4376;
+    background-color: #1b4376; /*#d4c9c6;*/
     font-size: 62.5%;
     height: 100%;
     width: 100%;
@@ -28,12 +28,19 @@ html body{
     height: 15%;
 }
 
+.body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
 .body h1{
     width: 100%;
     margin: auto;
     text-align: center;
     font-size: 3em;
     margin-top: 5%;
+    color: #8e7067;
 }
 
 .container{
@@ -63,16 +70,18 @@ html body{
     width: 100%;
     margin: auto;
     background-color: #8e7067;
+    display: inline-block;
 }
 
 #button_container{
-    width: 50%;
+    width: 25%;
     font-size: 0;
     margin: auto;
+    
 }
 
 .header .button{
-    width: 12.5%;
+    width: 16.66%;
     height: 35px;
     background-color: #8e7067;
     color: #1b4376;
@@ -84,6 +93,19 @@ html body{
     margin: auto;
 }
 
+.header .login_button{
+    margin-right: 3%;
+    margin-top: 0;
+    background-color: #1b4376;
+    color: #8e7067;
+    width: 5%;
+    border-radius:40px/24px;
+    float: right;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0;
+}
+
 .header .button #selected{
     background-color: #1b4376;
     color: #8e7067;
@@ -92,6 +114,37 @@ html body{
 .header .button:hover{
     background-color: #1b4376;
     color: #8e7067;
+}
+
+footer{
+    font-size: 1.6em;
+    color: #8e7067;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+footer a:link{
+    color: #8e7067;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: #b6b6d7;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:visited{
+    color: #8e7067;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:active{
+    color: #8e7067;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 

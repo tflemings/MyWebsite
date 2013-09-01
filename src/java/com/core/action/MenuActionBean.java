@@ -18,7 +18,6 @@ public class MenuActionBean extends TonyFlemingsAbstractActionBean {
     private static final String BLOG = "/blog.jsp";
     private static final String TUTORIALS = "/tutorials.jsp";
     private static final String PROJECTS = "/projects.jsp";
-    private static final String WIREFRAMES = "/wireframes.jsp";
     private static final String ABOUT = "/about.jsp";
     private static final String LOGIN = "/login.jsp";
     
@@ -37,10 +36,6 @@ public class MenuActionBean extends TonyFlemingsAbstractActionBean {
     
     public Resolution projects() {
         return new ForwardResolution(PROJECTS);
-    }
-    
-    public Resolution wireframes() {
-        return new ForwardResolution(WIREFRAMES);
     }
     
     public Resolution about() {
