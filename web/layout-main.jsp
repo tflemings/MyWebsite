@@ -14,8 +14,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>${title}</title>
 	<link rel="stylesheet" href="${contextPath}/css/style.css" type="text/css" />
-        <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700italic' 
-              rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' 
+            rel='stylesheet' type='text/css'>
     </head>
     <body> 
         <!--<img class="logo" src="images/tf_logo.png"/>-->
