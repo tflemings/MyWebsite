@@ -16,16 +16,19 @@ root {
 html body{
     padding: 0;
     margin: 0;
-    background-color: #b6b6c2; /*#d4c9c6;*/
+    background-color: #212121; /*#d4c9c6;*/
     font-size: 62.5%;
     height: 100%;
     width: 100%;
-    color: #51518b;
-    font-family: 'News Cycle', sans-serif;
+    color: #ffffff;
+    font-family: 'Rokkitt', serif;
 }
 
 .logo{
     height: 15%;
+    border: 1px solid white;
+    width: 10em;
+    height: 5em;
 }
 
 .body{
@@ -40,7 +43,6 @@ html body{
     text-align: center;
     font-size: 3em;
     margin-top: 5%;
-    color: #516e8b;
 }
 
 .container{
@@ -57,7 +59,6 @@ html body{
 
 .container:hover{
     background-color: #51518b;
-    color: #518b8b;
 }
 
 .container p{
@@ -67,14 +68,13 @@ html body{
 .container h3{
     font-size: 2em;
     text-align: center;
-    color: #51518b;
     font-weight: bold;
 }
 
 .header{
     width: 100%;
     margin: auto;
-    background-color: #51518b;
+    background-color: #702994;
     display: inline-block;
 }
 
@@ -88,8 +88,7 @@ html body{
 .header .button{
     width: 16.66%;
     height: 35px;
-    background-color: #51518b;
-    color: #518b8b;
+    background-color: #702994;
     font-size: 10pt;
     font-weight: bold;
     font-style: italic;
@@ -101,8 +100,7 @@ html body{
 .header .login_button{
     margin-right: 3%;
     margin-top: 0;
-    background-color: #1b4376;
-    color: #8e7067;
+    background-color: #702994;
     width: 5%;
     border-radius:40px/24px;
     float: right;
@@ -112,44 +110,38 @@ html body{
 }
 
 .header .button #selected{
-    background-color: #1b4376;
-    color: #8e7067;
+    background-color: #839429;
 }
 
 .header .button:hover{
-    background-color: #518b8b;
+    background-color: #839429;
     color: #51518b;
 }
 
 footer{
     font-size: 1.6em;
-    color: #518b8b;
     margin-top: 6%;
     width: 100%;
     height: 8%;
-    background-color: #51518b;
+    background-color: #702994;
 }
 
 footer a:link{
-    color: #518b8b;
     text-decoration: underline;
     font-weight: bold;
 }
 
 footer a:hover{
-    color: #518b8b;
     text-decoration: underline;
     font-weight: bold;
 }
 
 footer a:visited{
-    color: #518b8b;
     text-decoration: underline;
     font-weight: bold;
 }
 
 footer a:active{
-    color: #518b8b;
     text-decoration: underline;
     font-weight: bold;
 }

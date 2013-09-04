@@ -14,11 +14,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>${title}</title>
 	<link rel="stylesheet" href="${contextPath}/css/style.css" type="text/css" />
-        <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' 
+        <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' 
               rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="${contextPath}/css/yui.css" type="text/css"/>
     </head>
     <body> 
-        <!--<img class="logo" src="images/tf_logo.png"/>-->
+        <img class="logo" src="images/tony_g_p_black.png"/>
         <s:form class="header" beanclass="com.core.action.MenuActionBean" name="header">
             <div id="button_container">
             <s:submit name="index" class="button" id="selected" value="home"/>
