@@ -14,28 +14,23 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>${title}</title>
 	<link rel="stylesheet" href="${contextPath}/css/style.css" type="text/css" />
-<<<<<<< HEAD
-        <link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' 
-            rel='stylesheet' type='text/css'>
-=======
         <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' 
               rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="${contextPath}/css/yui.css" type="text/css"/>
->>>>>>> dev
     </head>
     <body> 
-        <img class="logo" src="images/tony_g_p_black.png"/>
-        <s:form class="header" beanclass="com.core.action.MenuActionBean" name="header">
-            <div id="button_container">
-            <s:submit name="index" class="button" id="selected" value="home"/>
-            <s:submit name="blog" class="button" value="blog"/>
-            <s:submit name="tutorials" class="button" value="tutorials"/>
-            <s:submit name="projects" class="button" value="projects"/>
-            <s:submit name="about" class="button" value="about"/>
-            <s:submit name="login" class="button" value="login"/>
+        <div id="nav">
+           <s:form class="menu" beanclass="com.core.action.MenuActionBean" name="header">
+                <s:submit name="index" class="button selected" id="selected" value="home"/>
+                <s:submit name="blog" class="button" value="blog"/>
+                <s:submit name="tutorials" class="button" value="tutorials"/>
+                <s:submit name="projects" class="button" value="projects"/>
+                <s:submit name="about" class="button" value="about"/>
+                <s:submit name="login" class="button" value="login"/>
+            </s:form>
+            <div id="logo">
+            <img src="${contextPath}/images/tony_swoosh.png"/>
             </div>
-            
-        </s:form>
+        </div>
         <div class="body">
             <s:layout-component name="body"/>
         </div>

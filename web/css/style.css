@@ -16,148 +16,48 @@ root {
 html body{
     padding: 0;
     margin: 0;
-<<<<<<< HEAD
-    background-color: #ffffff; /*#1b4376; #d4c9c6;*/
     font-size: 62.5%;
     height: 100%;
     width: 100%;
-    color: #b6b6d7;
-    font-family: 'News Cycle', sans-serif;
-=======
-    background-color: #212121; /*#d4c9c6;*/
-    font-size: 62.5%;
-    height: 100%;
-    width: 100%;
-    color: #ffffff;
+    color: #212121;
     font-family: 'Rokkitt', serif;
->>>>>>> dev
 }
 
-.logo{
-    height: 15%;
-    border: 1px solid white;
-    width: 10em;
-    height: 5em;
+#logo{
+    float: right;
+    border: 1px solid red;
 }
 
-.body{
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-}
-
-.body h1{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    font-size: 3em;
-    margin-top: 5%;
-}
-
-.container{
-    width: 20%;
-    height: 40%;
-    background-color: #518b8b;
-    margin-left: 3%;
-    margin-top: 3%;
-    border-radius: 25px;
-    box-shadow: 10px 10px 5px #000;
-    padding: 10px;
-    float: left;
-}
-
-.container:hover{
-    background-color: #51518b;
-}
-
-.container p{
-    font-size: 1.6em;
-}
-
-.container h3{
-    font-size: 2em;
-    text-align: center;
-<<<<<<< HEAD
-    color: #b6b6d7;
-=======
->>>>>>> dev
-    font-weight: bold;
-}
-
-.header{
-    width: 100%;
-    margin: auto;
-    background-color: #702994;
-    display: inline-block;
-}
-
-#button_container{
-    width: 25%;
+#nav{
+    border: 1px solid black;
     font-size: 0;
-    margin: auto;
+    display: inline;
     
 }
 
-.header .button{
-    width: 16.66%;
-    height: 35px;
-    background-color: #702994;
-    font-size: 10pt;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0;
+.menu{
+    width: 50%;
+    margin-left: 0;
+    border: 1px solid green;
+}
+
+.menu .button{
     border: none;
-    margin: auto;
+    width: 5em;
+    height: 5em;
+    background-color: #ffffff;
+    margin: 0;
 }
 
-.header .login_button{
-    margin-right: 3%;
-    margin-top: 0;
-    background-color: #702994;
-    width: 5%;
-    border-radius:40px/24px;
-    float: right;
-    font-style: italic;
-    font-weight: bold;
-    padding: 0;
+.menu .selected{
+    background-color: #f1f1f1;
+    border-bottom: 2px solid #000066;
 }
 
-.header .button #selected{
-    background-color: #839429;
+.menu .button:hover{
+    background-color: #f1f1f1;
 }
 
-.header .button:hover{
-    background-color: #839429;
-    color: #51518b;
-}
-
-footer{
-    font-size: 1.6em;
-    margin-top: 6%;
-    width: 100%;
-    height: 8%;
-    background-color: #702994;
-}
-
-footer a:link{
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-footer a:hover{
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-footer a:visited{
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-footer a:active{
-    text-decoration: underline;
-    font-weight: bold;
-}
 
 
 
