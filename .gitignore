@@ -13,6 +13,7 @@ build/web/WEB-INF/web.xml
 build/web/*.jsp
 build/web/css/
 build/web/images/
+build/web/jquery/
 
 ########################
 ## Directories
