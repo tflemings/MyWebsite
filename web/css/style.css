@@ -48,12 +48,26 @@ html body{
 }
 
 #nav .menu .selected{
-    background-color: #f1f1f1;
-    border-bottom: .5em solid #000066;
+    background-color: #000066;
+    border-bottom: .5em solid #f1f1f1;
+    color: #f1f1f1;
 }
 
 #nav .menu .button:hover{
     background-color: #f1f1f1;
+}
+
+#main_container{
+    width: 40em;
+    background-color: #f1f1f1;
+    border-radius: 1em;
+    margin: auto;
+    font-size: 1.8em;
+    margin-top: 10em;
+}
+
+footer{
+    font-size: 1.2em;
 }
 
 

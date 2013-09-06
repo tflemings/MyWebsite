@@ -32,7 +32,9 @@
                 </c:forEach>
             </s:form>
             <div id="logo">
-            <img src="${contextPath}/images/tony_swoosh.png"/>
+                <a href="http://localhost:8080/MyWebsite/">
+                    <img src="${contextPath}/images/tony_swoosh.png"/>
+                </a>
             </div>
         </div>
         <div class="body">

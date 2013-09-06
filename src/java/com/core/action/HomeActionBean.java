@@ -13,7 +13,7 @@ import net.sourceforge.stripes.action.Resolution;
  * @author Tony
  */
 public class HomeActionBean extends TonyFlemingsAbstractActionBean {
-    private static final String INDEX = "/index.jsp";
+    private static final String INDEX = "/Menu.action";
     
     @DefaultHandler
     public Resolution index() {
