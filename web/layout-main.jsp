@@ -19,13 +19,17 @@
     </head>
     <body> 
         <div id="nav">
-           <s:form class="menu" beanclass="com.core.action.MenuActionBean" name="header">
-                <s:submit name="index" class="button selected" id="selected" value="home"/>
-                <s:submit name="blog" class="button" value="blog"/>
-                <s:submit name="tutorials" class="button" value="tutorials"/>
-                <s:submit name="projects" class="button" value="projects"/>
-                <s:submit name="about" class="button" value="about"/>
-                <s:submit name="login" class="button" value="login"/>
+            <s:form class="menu" beanclass="com.core.action.MenuActionBean" name="header">
+                <c:forEach var="page" items="${actionBean.pages}">
+                    <c:choose>
+                    <c:when test="${actionBean.selected == page}">
+                        <s:submit name="${page}" class="button selected" value="${page}"/>
+                    </c:when>
+                    <c:otherwise>
+                        <s:submit name="${page}" class="button" value="${page}"/>
+                    </c:otherwise>
+                    </c:choose>
+                </c:forEach>
             </s:form>
             <div id="logo">
             <img src="${contextPath}/images/tony_swoosh.png"/>
@@ -34,6 +38,13 @@
         <div class="body">
             <s:layout-component name="body"/>
         </div>
+        <!--<script src="/jquery/jquery-1.10.2.js"></script>
+        <script type="text/javascript">
+            $('.button').click(function() { 
+                $('.selected').removeClass('selected');
+                $(this).addClass('selected'); 
+            });
+        </script>-->
     </body>
     <footer>
         <p><a href="http://www.arvixe.com/linux_web_hosting" target="_blank">Linux 

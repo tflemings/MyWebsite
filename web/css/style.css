@@ -25,36 +25,34 @@ html body{
 
 #logo{
     float: right;
-    border: 1px solid red;
 }
 
 #nav{
-    border: 1px solid black;
-    font-size: 0;
-    display: inline;
-    
+    padding: 0;
+    overflow: hidden;
 }
 
-.menu{
-    width: 50%;
+#nav .menu{
+    width: 42em;
     margin-left: 0;
-    border: 1px solid green;
+    font-size: 1.4em;
 }
 
-.menu .button{
+#nav .menu .button{
     border: none;
     width: 5em;
     height: 5em;
     background-color: #ffffff;
     margin: 0;
+    float: left;
 }
 
-.menu .selected{
+#nav .menu .selected{
     background-color: #f1f1f1;
-    border-bottom: 2px solid #000066;
+    border-bottom: .5em solid #000066;
 }
 
-.menu .button:hover{
+#nav .menu .button:hover{
     background-color: #f1f1f1;
 }
 
