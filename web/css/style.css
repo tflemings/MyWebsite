@@ -49,12 +49,13 @@ html body{
 
 #nav .menu .selected{
     background-color: #000066;
-    border-bottom: .5em solid #f1f1f1;
+    border-bottom: .5em solid #212121;
     color: #f1f1f1;
 }
 
 #nav .menu .button:hover{
     background-color: #f1f1f1;
+    color: #212121;
 }
 
 #main_container{
@@ -64,10 +65,40 @@ html body{
     margin: auto;
     font-size: 1.8em;
     margin-top: 10em;
+    padding: 2em;
 }
 
-footer{
-    font-size: 1.2em;
+#loginform{
+    margin: auto;
+    /*display: inline-block;*/
+}
+
+#loginform .input{
+    width: 10em;
+    height: 1.5em;
+    border-radius: .5em;
+    font-size: 1em;
+    font-style: italic;
+    margin-right: 2em;
+}
+
+#loginform .label{
+    display: inline-block;
+    
+}
+
+#loginform .button{
+    margin-right: 0;
+    height: 1.5em;
+    width: 5em;
+    background-color: #000066;
+    color: #f1f1f1;
+    float: right;
+}
+
+footer p{
+    font-size: 1.4em;
+    text-align: center;
 }
 
 

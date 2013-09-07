@@ -49,9 +49,12 @@
         </script>-->
     </body>
     <footer>
-        <p><a href="http://www.arvixe.com/linux_web_hosting" target="_blank">Linux 
+        <p>Tony Flemings, Copyright &copy; 2013<br />
+           All Rights Reserved.<br />
+           tony@tonyflemings.com<br />
+        <a href="http://www.arvixe.com/linux_web_hosting" target="_blank">Linux 
             Web Hosting By Arvixe </a>By <a href="http://www.arvixe.com" 
-                 target="_blank">Arvixe</a>
+                 target="_blank">Arvixe</a></p>
     </footer>
 </html>  
 </s:layout-definition>
