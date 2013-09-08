@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="${contextPath}/css/style.css" type="text/css" />
         <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' 
               rel='stylesheet' type='text/css'>
+        <script>type="text/javascript" src="${contextPath}/jquery/scripts.js"</script>
     </head>
     <body> 
         <div id="nav">
@@ -32,9 +33,9 @@
                 </c:forEach>
             </s:form>
             <div id="logo">
-                <a href="http://localhost:8080/MyWebsite/">
+                <s:link beanclass="com.core.action.MenuActionBean">
                     <img src="${contextPath}/images/tony_swoosh.png"/>
-                </a>
+                </s:link>
             </div>
         </div>
         <div class="body">

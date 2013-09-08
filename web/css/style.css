@@ -68,23 +68,19 @@ html body{
     padding: 2em;
 }
 
-#login{
+#openid{
     display: inline-block;
-    width: 15em;
     border: 1px solid #212121;
     border-radius: .5em;
+    width: 36em;
+    font-size: 1em;
 }
 
-.register{
-    float: right;
-}
-
-#loginform{
+openid #openid_form{
     margin: auto;
-    
 }
 
-#loginform .input{
+#openid_form .input{
     width: 10em;
     height: 1.5em;
     border-radius: .5em;
@@ -93,24 +89,27 @@ html body{
     margin-right: 2em;
 }
 
-#loginform .label{
-    display: inline-block;
+#openid_form .label{
+    font-size: 1em;
     
 }
 
-#loginform .button{
+#openid_form .button{
     margin-right: 0;
     margin-bottom: 0;
     height: 1.5em;
     width: 5em;
     background-color: #000066;
     color: #f1f1f1;
+    font-size: 1em;
+    border-radius: .5em;
 }
 
 footer p{
     font-size: 1.4em;
     text-align: center;
 }
+
 
 
 

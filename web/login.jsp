@@ -7,23 +7,19 @@
 <%@ include file="taglibs.jsp"%>
 <s:layout-render name="/layout-main.jsp" title="Login">
     <s:layout-component name="body">
-        <s:messages/>
-    <div class="body">
-        <div id="main_container">
-            <fieldset id="login">
-                <legend>Login</legend>
-                <s:form id="loginform" name="loginform" action="#">
-                    <s:label for="username" class="label input">Username</s:label>
-                    <s:text id="username" name="username" class="input"/>
-                    <s:label for="password" class="label input">Password</s:label>
-                    <s:password id="password" name="password" class="input"/>
-                    <s:submit name="#" class="input button" value="Login"/>
+        <s:messages/> 
+        <div id="main_container">        
+            <fieldset id="openid">
+                <legend>Sign-in or Create New Account</legend>
+                <s:form action="#" id="openid_form">
+                    <p class="label">Please click your account provider:</p>
+                    <s:label for="openid_identifier" class="label">http://
+                        <s:text class="input" id="openid_identifier" name="openid_identifier"/>
+                    </s:label>
+                    <s:submit class="button" id="openid_submit" name="openid_submit" value="Sign-In"/>
+                    <s:link beanclass="com.core.action.MenuActionBean" event="openId">What is this?</s:link>
                 </s:form>
-            </fieldset>
-            <fieldset id="login" class="register">
-                <legend>Register</legend>
-            </fieldset>
+            </fieldset> 
         </div>
-    </div>
     </s:layout-component>
 </s:layout-render>

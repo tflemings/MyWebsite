@@ -20,6 +20,7 @@ public class MenuActionBean extends TonyFlemingsAbstractActionBean {
     private static final String PROJECTS = "/projects.jsp";
     private static final String ABOUT = "/about.jsp";
     private static final String LOGIN = "/login.jsp";
+    private static final String OPENID = "/open-id.jsp";
     private String selected;
     private String[] pages;
     
@@ -58,6 +59,12 @@ public class MenuActionBean extends TonyFlemingsAbstractActionBean {
         this.selected = "login";
         this.pages = this.getPages();
         return new ForwardResolution(LOGIN);
+    }
+    
+    public Resolution openId() {
+        this.selected = "login";
+        this.pages = this.getPages();
+        return new ForwardResolution(OPENID);
     }
     
     public void setSelected(String selected) {
